@@ -1,2 +1,3 @@
-A Gene-Pair-Based Immune Balance Score Reveals a Dichotomy of Inflammatory and Proliferative Programs and Predicts Responses to Vaccination and Immunotherapy
-<img width="1188" height="1216" alt="image" src="https://github.com/user-attachments/assets/3b90f3cb-a05d-4132-8134-4f23f481532b" />
+ImmunoCompass: A Transcriptomic Framework for Immune-State Positioning and Context-Aware Signal Decomposition
+<img width="865" height="661" alt="image" src="https://github.com/user-attachments/assets/b1ab7f59-b5da-4605-b92e-e793df282d57" />
+
