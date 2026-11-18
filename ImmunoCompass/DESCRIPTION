@@ -1,10 +1,23 @@
 Package: ImmunoCompass
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Immune Balance Index and Immune-Context Gene Effect Decomposition
+Version: 0.3.0
+Authors@R:
+    person(given = "ImmunoCompass", family = "Authors",
+           role = c("aut", "cre"), email = "lydiaMyr@users.noreply.github.com")
+Author: ImmunoCompass Authors
+Maintainer: ImmunoCompass Authors <lydiaMyr@users.noreply.github.com>
+Description: Calculates the transcriptome-based Immune Balance Index (IBI)
+    from the locked 390 gene-pair panel and decomposes gene-level expression
+    effects into background-associated (BAS), condition-associated (CAS), and
+    interaction-associated (IAS) components.
 License: MIT + file LICENSE
 Encoding: UTF-8
+Depends:
+    R (>= 3.5.0)
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.1
+LazyData: true
+Imports:
+    e1071
+URL: https://github.com/lydiaMyr/ImmunoCompass
+BugReports: https://github.com/lydiaMyr/ImmunoCompass/issues
